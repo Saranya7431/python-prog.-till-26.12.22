@@ -1,0 +1,14 @@
+a=[]
+n=int(input('enter the size'))
+for i in range(n):
+    val=int(input("enter values"))
+    a.append(val)
+max=a[0]
+min=a[0]
+for i in range(n):
+    if a[i]>max:
+       max=a[i]
+    elif a[i]<min:
+        min=a[i]
+print(max)
+print(min)
