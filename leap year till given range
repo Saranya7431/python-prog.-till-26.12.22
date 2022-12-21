@@ -1,0 +1,4 @@
+year=int(input('Enter any year'))
+for i in range(1,year):
+    if i%4==0 and i%100!=0 or i%400==0:
+        print(i,end=' ')
