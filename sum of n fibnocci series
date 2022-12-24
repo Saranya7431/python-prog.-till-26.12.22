@@ -1,0 +1,11 @@
+n=int(input())
+x=-1
+y=1
+sum=0
+while n!=0:
+    z=x+y
+    sum=sum+z
+    x=y
+    y=z
+    n=n-1
+print(sum)
